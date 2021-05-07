@@ -1,0 +1,51 @@
+* {
+  background-color: rgb(226, 213, 196);
+}
+.App {
+  margin: 20px 200px;
+  padding: 10px;
+}
+.image {
+  display: block;
+  margin: 5px 20px;
+  padding: 5px 5px;
+}
+.source,
+.public {
+  display: flex;
+  justify-content: center;
+}
+.source > img {
+  width: 500px;
+  margin: 10px 20px;
+  padding: auto;
+}
+.public > img {
+  width: 500px;
+  margin: 10px 40px;
+  padding: auto;
+}
+.source > h3,
+.public > h3 {
+  margin: 200px 10px;
+  padding: 10px;
+  color: rgb(34, 34, 34);
+  text-align: center;
+}
+.vid {
+  margin: 30px 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+.vid iframe {
+  margin: auto;
+  padding: auto;
+}
+.vid h4 {
+  margin: 5px 20px;
+  padding: 5px;
+  text-align: center;
+  color: rgb(34, 34, 34);
+}
